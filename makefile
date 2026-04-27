@@ -2,7 +2,7 @@ PYTHON = python3
 MAIN = main
 
 install: 
-	pip intall -r requirements.txt
+	pip install -r requirements.txt
 
 run:
 	$(PYTHON) $(MAIN)
